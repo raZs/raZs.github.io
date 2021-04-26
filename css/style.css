@@ -244,7 +244,8 @@ ul.nav-list-item{
 
 
 ul.nav-list-item li{
-	display: inline;
+	
+
 	float: left;
 	white-space: nowrap;
 }
@@ -269,7 +270,7 @@ ul.nav-list-item li:hover a{
 
 }
 ul.header-r-list li{
-	display: inline;
+	
 }
 ul.nav-list-item{
 	font-size: 13px;
@@ -279,14 +280,14 @@ ul.main-header-notifications-list{
 	line-height: 20px;
 }
 ul.main-header-notifications-list li{
-	display: inline;
+	
 	list-style-type: none;
 
 }
 
 ul.notification-list li{
 	margin-left: 18px;
-	display: inline;
+	
 
 }
 ul.notification-list li a{
@@ -320,7 +321,7 @@ ul.notification-list li a.request.active{
 
 }
 ul.notification-list li a.request
-ul.notification-list li~li{
+ul.notification-list li li{
 	margin-left: 32px;
 
 }
@@ -475,7 +476,7 @@ ul.main-body-list li{
 	}
 	.tab-set-title{
 		width: 49%;
-		display: inline-block;
+		
 		font-size: 12px;
 
 		background-color:  #727272;
@@ -545,7 +546,7 @@ ul.main-body-list li{
 
 	}
 	ul.notification-list li {
-		display: inline;
+		
 		margin-right: 31px;
 		margin-left: 10px;
 
@@ -639,7 +640,7 @@ ul.main-body-list li{
 	.tab-set-title {
 		width: 100%;
 		text-align: center;
-		display: inline-block;
+		
 		font-size: 12px;
 
 		margin-bottom: 5px;
