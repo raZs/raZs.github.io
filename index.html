@@ -1,24 +1,28 @@
 <!DOCTYPE html>
-<html lang="en">
-<head>
-	<meta charset="UTF-8">
-	<title>TuTangle</title>
-	<link rel="stylesheet" type="text/css" href="css/reset.css">
-	<link rel="stylesheet" type="text/css" href="css/layout.css">
-	<link rel="stylesheet" type="text/css" href="css/style.css">
+<html>
+    <head>
+        <meta charset="UTF-8">
+		<meta name="viewport" content="width=device-width, initial-scale-1.0">
+		<title>Tutangle</title>
+        <link rel="stylesheet" href="css/reset.css">
+        <link rel="stylesheet" href="css/layout.css">
+        <link rel="stylesheet" href="css/style.css">
+		<link href="//netdna.bootstrapcdn.com/font-awesome/3.2.1/css/font-awesome.css" rel="stylesheet">
 
-</head>
-<body>
 
-	<!-- Start of header -->
+    </head>
+    <body>
+       <!-- Start of header -->
 		<div class="header">
 			<div class="header-center center clear-fix">
+				<div class="top_header_left clearfix">
 				<div class="header-left float-l clear-fix ">
 					<div class="header-left-image float-l"><img src="images/logo.png" alt="TuTangle"/></div>
+					
 					<div class="form float-r clear-fix">
 						<div class="input-box float-l">
 
-							<form>
+							<form action="index.html" method="post">
 
 								<input  type="text" placeholder="Search by Term, Member, or Entry Title"/>
 							</form>
@@ -27,7 +31,9 @@
 								<button>Search</button>
 							</span>
 					</div>
+					</div>
 				</div>
+				<div class="top_header_right clearfix">
 				<div class="header-right  float-r clear-fix ">
 					<span class="header-r-name font-title float-r">Joe Burros</span>
 
@@ -35,45 +41,50 @@
 							<li><a href="">Home</a></li>
 							<li><a href="">Setting</a></li>
 							<li><a href="">Log Out</a></li>
+							
 						</ul>
 
 				</div>
 			</div>
+			</div>
 		</div>
+
+		
 		<!-- End of the header -->
 
-
-		<!-- Start of the nav-bar -->
-
 		<div class="nav-bar-background clear-fix">
-		<div class="nav-bar center clear-fix">
-		<div class="nav-bar-list float-l">
-			<ul class="nav-list-item clear-fix">
-				<li><a class="first-child" href="#">Create New Entry</a></li>
-				<li><a href="#">My Topic Boxes</a></li>
-				<li><a href="#">Friends</a></li>
-				<li><a href="#">Invite New Members</a></li>
-			</ul>
-		</div>
-		<div class="nav-bar-notifications float-r clear-fix">
-			<ul class="notification-list float-r clear-fix">
-				<li>
-					<a href="#" class="invite active">Topic Boxes Invites - 1</a>
-				</li>
-				<li>
-					<a href="#" class="request inactive">Friend Request - 0</a>
+			<div class="nav-bar center clear-fix">
+			<div class="nav-bar-list float-l">
+				<ul class="nav-list-item clear-fix">
+					<li><a class="first-child" href="#">Create New Entry</a></li>
+					<li><a href="#">My Topic Boxes</a></li>
+					<li><a href="#">Friends</a></li>
+					<li><a href="#">Invite New Members</a></li>
+				</ul>
+			</div>
+			<div class="nav-bar-notifications float-r clear-fix">
+				<ul class="notification-list float-r clear-fix">
+					<li>
+						<a href="#" class="invite active">Topic Boxes Invites - 1</a>
+					</li>
+					<li>
+						<a href="#" class="request inactive">Friend Request - 0</a>
+	
+					</li>
+	
+	
+	
+				</ul>
+			</div>
+			</div>
+			</div>
+			<!-- End of the nav-bar -->
 
-				</li>
 
+			<!-- Start of the body Col3-left -->
 
+			<!--start of main body left-->
 
-			</ul>
-		</div>
-		</div>
-		</div>
-		<!-- End of the nav-bar -->
-
-		<!-- Start of the body Col3-left -->
 		<div  class="col3-left-layout center">
 			<div class="bg-image-fix clear-fix">
 
@@ -96,7 +107,7 @@
 
 					</div>
 					<div class="list-block">
-						<div class="left-column-block-title">Recent Searches</div>
+						<div class="left-column-block-title ">Recent Searches</div>
 						<ul class="left-column-block-list clear-fix">
 							<li>
 								<a href="#" class="l-col-block-list-name float-l">Different cersions of the Tristan Und Isolde Prelude
@@ -133,8 +144,10 @@
 						</ul>
 					</div>
 				</div>
+					<!--end of main body left-->
 
-				<div class="main-column float-r">
+					<!--start of main body center-->
+				<div class="main-column center-body float-r">
 				<div class="main-column-main-block float-l">
 					<div class="main-column-title-block"><h1>Entries</h1></div>
 					<div class="tab-set">
@@ -211,10 +224,14 @@
 					</ul>
 					</div>
 				</div>
+					<!--end of main body center-->
+
+
+					<!--start of main body Right-->
+
+
 				<div class="main-column right-body float-r">
-					<!-- <div class="list-block">
-						<div class="block-title"></div>
-					</div> -->
+					
 					<div class="list-block">
 						<div class="left-column-block-title">Video Tutorial</div>
 						<ul class="left-column-block-list clear-fix">
@@ -258,9 +275,13 @@
 			</div>
 			</div>
 		</div>
+					<!--end of main body right-->
+
 
 		<!-- End of the body Col3-left -->
-		<!--Start of the footer-->
+
+		
+				<!--Start of the footer-->
 		<div class="footer-background clear-fix">
 			<div class="footer center clear-fix">
 
@@ -278,5 +299,5 @@
 		</div>
 		<!--End of the footer-->
 
-</body>
+    </body>
 </html>

@@ -4,16 +4,15 @@
 .header{
 	width: 100%;
 	background-color:#7dd9e8;
-	/*max-width: 58.625em;*/
+	
 	padding-top: 24px;
 	padding-bottom: 12px;
 }
-.bg-image-fix{
-	background-image: url("../images/body-background-image.png");
-	background-repeat: repeat-y;
-	background-size:100%;
 
-}
+
+
+
+
 .form input{
 	width: 98%;
 	background: none;
@@ -21,6 +20,10 @@
 	outline: none;
 	padding-left: 7px;
 	font-size: 10px;
+}
+
+.top_header_right {
+	float: right;
 }
 
 .col3-left-layout{
