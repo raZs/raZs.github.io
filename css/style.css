@@ -309,3 +309,76 @@ form{
     .foot_three button{
         text-align: center;
     }
+
+
+
+
+
+
+
+
+
+/* On screens that are 992px or less, set the background color to blue */
+@media screen and (max-width: 992px) {
+    body {
+      
+    }
+  }
+
+
+/* On screens that are 768px or less, set the background color to olive */
+@media screen and (max-width: 768px) {
+    body {
+    
+    }
+
+    .header_bottom {
+        display: none;
+        
+      }
+
+      .header_bottom_left{
+          display: none;
+      }
+
+      .header_top_right input {
+          padding: 5px;
+          margin: 5px;
+      }
+
+      .header_top_right button{
+        padding: 5px;
+        margin: 5px;
+    }
+  }
+
+  /* On screens that are 605px or less, set the background color to olive */
+@media screen and (max-width: 660px) {
+    body {
+
+        
+    }
+
+    .header_bottom {
+        display: none;
+        
+      }
+
+      .header_top_left p{
+          display: none;
+          
+      }
+      .header_bottom_left{
+        display: none;
+    }
+    .header_top_right input {
+        padding: 5px;
+        margin: 5px;
+    }
+    .header_top_right button{
+        padding: 5px;
+        margin: 5px;
+    }
+}
+
+    
