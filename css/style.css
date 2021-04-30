@@ -353,6 +353,12 @@ form{
     .text{
         display: none;
     }
+    .discription h1{
+        font: size 32px; ;
+    }
+    .discription h2{
+        font: size 14px; ;
+    }
   }
 
   /* On screens that are 605px or less, set the background color to olive */
@@ -385,6 +391,12 @@ form{
 
     .text{
         display: none;
+    }
+    .discription h1{
+        font: size 32px; ;
+    }
+    .discription h2{
+        font: size 14px; ;
     }
 }
 
