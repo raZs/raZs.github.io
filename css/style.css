@@ -55,7 +55,8 @@ button{
     box-shadow: none;
 }
 input{
-    padding: 15px 32px;
+    padding: 12px 32px;
+    margin: 2px;
 }
 span{
     margin: 0px 5px;
@@ -146,12 +147,18 @@ ul{
     
       font-size: 14px;
   }
+  .container{
+      text-align: center;
+  }
 
   .container button {
       
-        align-self: center;
+        
   }
   
+  .container h2{
+      text-align: center;
+  }
   
 
   
@@ -216,6 +223,10 @@ ul{
     color: white;
 }
 
+.foot p{
+    text-align: left;
+}
+
 .foot_one{
 
     background-color:#d54346;
@@ -226,7 +237,7 @@ ul{
 }
 
 .foot_two{
-    
+    padding: 0%,5px;
     background-color:#d54346;
     width: 33%;
     height: auto;
@@ -241,6 +252,7 @@ ul{
 .foot_two ul li {
     padding: 5px 12px;
     border-bottom: 1px solid #ddd;
+    list-style: symbols("*");
   }
 
 .foot_three{
@@ -250,6 +262,7 @@ ul{
     float:none;
     
 }
+.foot_three 
 
 form{
     width: 100%;
@@ -265,7 +278,7 @@ form{
 
   footer {
       padding: 10px;
-      margin-top:-15px ;
+      margin-top:0px ;
       color: white;
       background-color:#d54346;
   }
@@ -273,8 +286,9 @@ form{
     background-color:#871f21; /* Green */
     border:groove;
     color: white;
+    border-width: 2px;
     border: gray;
-    padding: 15px 32px;
+    padding: 12px 32px;
     text-align: center;
     text-decoration: none;
     display: inline-block;
@@ -282,3 +296,16 @@ form{
     margin: 4px 2px;
     cursor: pointer;
   }
+
+  .foot_three input{
+      width: 95%;
+      height: 100%;
+      margin-right: 10px;
+      color: #bbb;
+      border-radius: 10px;
+      border-color:ghostwhite; 
+    }
+
+    .foot_three button{
+        text-align: center;
+    }
