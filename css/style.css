@@ -74,9 +74,13 @@ ul{
 .header_bottom{
     width: 100%;
     background-color:#f8f8f8;
+    margin: 0px;
+    padding: 0px;
 }
 .header_bottom_left{
     float: left;
+    margin-top: -20px;
+   
 }
 .header_bottom_right{
     float: right;
@@ -84,7 +88,9 @@ ul{
 }
 
 .header_bottom_right img{
-    margin:5px;
+    margin-top:15px;
+
+    margin: 10px;
     
 }
 
@@ -319,10 +325,14 @@ form{
 
 
 /* On screens that are 992px or less, set the background color to blue */
-@media screen and (max-width: 992px) {
+@media screen and (max-width: 950px) {
     body {
       
     }
+    .header_bottom_left{
+        display :none;
+    }
+
   }
 
 
